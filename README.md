@@ -1,0 +1,23 @@
+TerminalStones
+==============
+CASTELLANO
+
+Juego de terminal inspirado en el gnome-stones.
+
+Probado solo en Linux, en principio funciona en cualquier terminal Unix compatible.
+
+ * Para compilar necesitas las ncurses-dev
+ * Para jugar correctamente la terminal tiene que estar configurada a 80x24, 80 columnas 24 filas.
+
+ * Se incluye fichero de proyecto codeblocks, seguramente necesitaras decirle al linker que añada las ncurses.
+
+CATALAN
+
+ NOMES FUNCIONA A LINUX o UNIX AMB TIPUS DE TERMINAL COMPATIBLE.
+
+ * Aquet joc necesita per compilar les llibreries ncurses-dev i per executarse les ncurses,
+ * es troban facilement al repositori de debian si no les tens ya instalades.
+ * despres per que  compili al codeblocks hem de anar a settings -> compiler and debugger ->
+ * pestanya linker settings -> i en l'apartat link libraries boto "add" -> escriure "ncurses"
+
+ Per poder jugar adecuadament la terminal ha de estar configurada a 80x24, 80 columnas 24 filas.
