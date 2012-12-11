@@ -1,0 +1,128 @@
+# depslib dependency file v1.0
+1336935432 source:/home/sunlock/Dropbox/DAM/DXM3_Programacion/Practicas/Alberto/C/UF2/Juegos/Juego10/diamante.c
+	"diamante.h"
+	"nivel.h"
+	<ncurses.h>
+
+1336939949 /home/sunlock/Dropbox/DAM/DXM3_Programacion/Practicas/Alberto/C/UF2/Juegos/Juego10/diamante.h
+	"global.h"
+	"timer.h"
+
+1336939986 /home/sunlock/Dropbox/DAM/DXM3_Programacion/Practicas/Alberto/C/UF2/Juegos/Juego10/global.h
+
+1336940003 /home/sunlock/Dropbox/DAM/DXM3_Programacion/Practicas/Alberto/C/UF2/Juegos/Juego10/timer.h
+	<sys/timeb.h>
+	"global.h"
+
+1336939959 /home/sunlock/Dropbox/DAM/DXM3_Programacion/Practicas/Alberto/C/UF2/Juegos/Juego10/nivel.h
+	"global.h"
+	"timer.h"
+	"diamante.h"
+	"piedra.h"
+
+1336939998 /home/sunlock/Dropbox/DAM/DXM3_Programacion/Practicas/Alberto/C/UF2/Juegos/Juego10/piedra.h
+	"global.h"
+
+1336942043 source:/home/sunlock/Dropbox/DAM/DXM3_Programacion/Practicas/Alberto/C/UF2/Juegos/Juego10/grafico.c
+	"grafico.h"
+	"global.h"
+	<ncurses.h>
+	<string.h>
+
+1336931396 /home/sunlock/Dropbox/DAM/DXM3_Programacion/Practicas/Alberto/C/UF2/Juegos/Juego10/grafico.h
+	"nivel.h"
+	"player.h"
+
+1336939931 /home/sunlock/Dropbox/DAM/DXM3_Programacion/Practicas/Alberto/C/UF2/Juegos/Juego10/player.h
+	"nivel.h"
+	"global.h"
+
+1336939937 source:/home/sunlock/Dropbox/DAM/DXM3_Programacion/Practicas/Alberto/C/UF2/Juegos/Juego10/nivel.c
+	"nivel.h"
+	"global.h"
+	<ncurses.h>
+	<stdlib.h>
+	<string.h>
+
+1336916027 source:/home/sunlock/Dropbox/DAM/DXM3_Programacion/Practicas/Alberto/C/UF2/Juegos/Juego10/piedra.c
+	"piedra.h"
+	"nivel.h"
+	<ncurses.h>
+
+1336939917 source:/home/sunlock/Dropbox/DAM/DXM3_Programacion/Practicas/Alberto/C/UF2/Juegos/Juego10/player.c
+	"player.h"
+	<stdio.h>
+	<ncurses.h>
+
+1336939978 source:/home/sunlock/Dropbox/DAM/DXM3_Programacion/Practicas/Alberto/C/UF2/Juegos/Juego10/time.c
+	"timer.h"
+
+1336978419 source:/home/sunlock/Dropbox/DAM/DXM3_Programacion/Practicas/Alberto/C/UF2/Juegos/Juego10/main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<ncurses.h>
+	"nivel.h"
+	"player.h"
+	"grafico.h"
+	"global.h"
+
+1336935432 source:/home/cole/Dropbox/DAM/DAM1/DXM3_Programacion/Practicas/Alberto/C/UF2/Juegos/Juego11/Juego10/diamante.c
+	"diamante.h"
+	"nivel.h"
+	<ncurses.h>
+
+1336939949 /home/cole/Dropbox/DAM/DAM1/DXM3_Programacion/Practicas/Alberto/C/UF2/Juegos/Juego11/Juego10/diamante.h
+	"global.h"
+	"timer.h"
+
+1336939986 /home/cole/Dropbox/DAM/DAM1/DXM3_Programacion/Practicas/Alberto/C/UF2/Juegos/Juego11/Juego10/global.h
+
+1336940003 /home/cole/Dropbox/DAM/DAM1/DXM3_Programacion/Practicas/Alberto/C/UF2/Juegos/Juego11/Juego10/timer.h
+	<sys/timeb.h>
+	"global.h"
+
+1336939959 /home/cole/Dropbox/DAM/DAM1/DXM3_Programacion/Practicas/Alberto/C/UF2/Juegos/Juego11/Juego10/nivel.h
+	"global.h"
+	"timer.h"
+	"diamante.h"
+	"piedra.h"
+
+1336939998 /home/cole/Dropbox/DAM/DAM1/DXM3_Programacion/Practicas/Alberto/C/UF2/Juegos/Juego11/Juego10/piedra.h
+	"global.h"
+
+1336942043 source:/home/cole/Dropbox/DAM/DAM1/DXM3_Programacion/Practicas/Alberto/C/UF2/Juegos/Juego11/Juego10/grafico.c
+	"grafico.h"
+	"global.h"
+	<ncurses.h>
+	<string.h>
+
+1336931396 /home/cole/Dropbox/DAM/DAM1/DXM3_Programacion/Practicas/Alberto/C/UF2/Juegos/Juego11/Juego10/grafico.h
+	"nivel.h"
+	"player.h"
+
+1336939931 /home/cole/Dropbox/DAM/DAM1/DXM3_Programacion/Practicas/Alberto/C/UF2/Juegos/Juego11/Juego10/player.h
+	"nivel.h"
+	"global.h"
+
+1336939937 source:/home/cole/Dropbox/DAM/DAM1/DXM3_Programacion/Practicas/Alberto/C/UF2/Juegos/Juego11/Juego10/nivel.c
+	"nivel.h"
+	"global.h"
+	<ncurses.h>
+	<stdlib.h>
+	<string.h>
+
+1336916027 source:/home/cole/Dropbox/DAM/DAM1/DXM3_Programacion/Practicas/Alberto/C/UF2/Juegos/Juego11/Juego10/piedra.c
+	"piedra.h"
+	"nivel.h"
+	<ncurses.h>
+
+1336939917 source:/home/cole/Dropbox/DAM/DAM1/DXM3_Programacion/Practicas/Alberto/C/UF2/Juegos/Juego11/Juego10/player.c
+	"player.h"
+	<stdio.h>
+	<ncurses.h>
+
+1336939978 source:/home/cole/Dropbox/DAM/DAM1/DXM3_Programacion/Practicas/Alberto/C/UF2/Juegos/Juego11/Juego10/time.c
+	"timer.h"
+

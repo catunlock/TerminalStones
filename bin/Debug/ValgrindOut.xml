@@ -1,0 +1,345 @@
+<?xml version="1.0"?>
+
+<valgrindoutput>
+
+<protocolversion>4</protocolversion>
+<protocoltool>memcheck</protocoltool>
+
+<preamble>
+  <line>Memcheck, a memory error detector</line>
+  <line>Copyright (C) 2002-2011, and GNU GPL'd, by Julian Seward et al.</line>
+  <line>Using Valgrind-3.7.0 and LibVEX; rerun with -h for copyright info</line>
+  <line>Command: ./Juego10</line>
+</preamble>
+
+<pid>26683</pid>
+<ppid>26254</ppid>
+<tool>memcheck</tool>
+
+<args>
+  <vargv>
+    <exe>/usr/bin/valgrind.bin</exe>
+    <arg>--suppressions=/usr/lib/valgrind/debian-libc6-dbg.supp</arg>
+    <arg>--leak-check=yes</arg>
+    <arg>--xml=yes</arg>
+    <arg>--xml-file=ValgrindOut.xml</arg>
+  </vargv>
+  <argv>
+    <exe>./Juego10</exe>
+  </argv>
+</args>
+
+<status>
+  <state>RUNNING</state>
+  <time>00:00:00:00.053 </time>
+</status>
+
+<error>
+  <unique>0x2</unique>
+  <tid>1</tid>
+  <kind>UninitCondition</kind>
+  <what>Conditional jump or move depends on uninitialised value(s)</what>
+  <stack>
+    <frame>
+      <ip>0x4027A5</ip>
+      <obj>/home/sunlock/Dropbox/DAM/DXM3_Programacion/Practicas/Alberto/C/UF2/Juegos/Juego10/bin/Debug/Juego10</obj>
+      <fn>cargaNivel</fn>
+      <dir>/home/sunlock/Dropbox/DAM/DXM3_Programacion/Practicas/Alberto/C/UF2/Juegos/Juego10</dir>
+      <file>nivel.c</file>
+      <line>67</line>
+    </frame>
+    <frame>
+      <ip>0x40206D</ip>
+      <obj>/home/sunlock/Dropbox/DAM/DXM3_Programacion/Practicas/Alberto/C/UF2/Juegos/Juego10/bin/Debug/Juego10</obj>
+      <fn>iniciar_juego</fn>
+      <dir>/home/sunlock/Dropbox/DAM/DXM3_Programacion/Practicas/Alberto/C/UF2/Juegos/Juego10</dir>
+      <file>main.c</file>
+      <line>124</line>
+    </frame>
+    <frame>
+      <ip>0x401EE7</ip>
+      <obj>/home/sunlock/Dropbox/DAM/DXM3_Programacion/Practicas/Alberto/C/UF2/Juegos/Juego10/bin/Debug/Juego10</obj>
+      <fn>main</fn>
+      <dir>/home/sunlock/Dropbox/DAM/DXM3_Programacion/Practicas/Alberto/C/UF2/Juegos/Juego10</dir>
+      <file>main.c</file>
+      <line>41</line>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0x3</unique>
+  <tid>1</tid>
+  <kind>UninitCondition</kind>
+  <what>Conditional jump or move depends on uninitialised value(s)</what>
+  <stack>
+    <frame>
+      <ip>0x402963</ip>
+      <obj>/home/sunlock/Dropbox/DAM/DXM3_Programacion/Practicas/Alberto/C/UF2/Juegos/Juego10/bin/Debug/Juego10</obj>
+      <fn>cargaNivel</fn>
+      <dir>/home/sunlock/Dropbox/DAM/DXM3_Programacion/Practicas/Alberto/C/UF2/Juegos/Juego10</dir>
+      <file>nivel.c</file>
+      <line>90</line>
+    </frame>
+    <frame>
+      <ip>0x40206D</ip>
+      <obj>/home/sunlock/Dropbox/DAM/DXM3_Programacion/Practicas/Alberto/C/UF2/Juegos/Juego10/bin/Debug/Juego10</obj>
+      <fn>iniciar_juego</fn>
+      <dir>/home/sunlock/Dropbox/DAM/DXM3_Programacion/Practicas/Alberto/C/UF2/Juegos/Juego10</dir>
+      <file>main.c</file>
+      <line>124</line>
+    </frame>
+    <frame>
+      <ip>0x401EE7</ip>
+      <obj>/home/sunlock/Dropbox/DAM/DXM3_Programacion/Practicas/Alberto/C/UF2/Juegos/Juego10/bin/Debug/Juego10</obj>
+      <fn>main</fn>
+      <dir>/home/sunlock/Dropbox/DAM/DXM3_Programacion/Practicas/Alberto/C/UF2/Juegos/Juego10</dir>
+      <file>main.c</file>
+      <line>41</line>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0x32</unique>
+  <tid>1</tid>
+  <kind>UninitCondition</kind>
+  <what>Conditional jump or move depends on uninitialised value(s)</what>
+  <stack>
+    <frame>
+      <ip>0x52D3DBA</ip>
+      <obj>/lib/x86_64-linux-gnu/libc-2.15.so</obj>
+      <fn>vfprintf</fn>
+      <dir>/build/buildd/eglibc-2.15/stdio-common</dir>
+      <file>vfprintf.c</file>
+      <line>1624</line>
+    </frame>
+    <frame>
+      <ip>0x539157F</ip>
+      <obj>/lib/x86_64-linux-gnu/libc-2.15.so</obj>
+      <fn>__vsnprintf_chk</fn>
+      <dir>/build/buildd/eglibc-2.15/debug</dir>
+      <file>vsnprintf_chk.c</file>
+      <line>65</line>
+    </frame>
+    <frame>
+      <ip>0x4E4D97C</ip>
+      <obj>/usr/lib/debug/libncurses.so.5.9</obj>
+      <fn>_nc_printf_string</fn>
+      <dir>/usr/include/x86_64-linux-gnu/bits</dir>
+      <file>stdio2.h</file>
+      <line>78</line>
+    </frame>
+    <frame>
+      <ip>0x4E46D02</ip>
+      <obj>/usr/lib/debug/libncurses.so.5.9</obj>
+      <fn>vwprintw</fn>
+      <dir>/build/buildd/ncurses-5.9/ncurses/base</dir>
+      <file>lib_printw.c</file>
+      <line>137</line>
+    </frame>
+    <frame>
+      <ip>0x4E47249</ip>
+      <obj>/usr/lib/debug/libncurses.so.5.9</obj>
+      <fn>printw</fn>
+      <dir>/build/buildd/ncurses-5.9/ncurses/base</dir>
+      <file>lib_printw.c</file>
+      <line>58</line>
+    </frame>
+    <frame>
+      <ip>0x40275C</ip>
+      <obj>/home/sunlock/Dropbox/DAM/DXM3_Programacion/Practicas/Alberto/C/UF2/Juegos/Juego10/bin/Debug/Juego10</obj>
+      <fn>cargaNivel</fn>
+      <dir>/home/sunlock/Dropbox/DAM/DXM3_Programacion/Practicas/Alberto/C/UF2/Juegos/Juego10</dir>
+      <file>nivel.c</file>
+      <line>61</line>
+    </frame>
+    <frame>
+      <ip>0x40206D</ip>
+      <obj>/home/sunlock/Dropbox/DAM/DXM3_Programacion/Practicas/Alberto/C/UF2/Juegos/Juego10/bin/Debug/Juego10</obj>
+      <fn>iniciar_juego</fn>
+      <dir>/home/sunlock/Dropbox/DAM/DXM3_Programacion/Practicas/Alberto/C/UF2/Juegos/Juego10</dir>
+      <file>main.c</file>
+      <line>124</line>
+    </frame>
+    <frame>
+      <ip>0x401EE7</ip>
+      <obj>/home/sunlock/Dropbox/DAM/DXM3_Programacion/Practicas/Alberto/C/UF2/Juegos/Juego10/bin/Debug/Juego10</obj>
+      <fn>main</fn>
+      <dir>/home/sunlock/Dropbox/DAM/DXM3_Programacion/Practicas/Alberto/C/UF2/Juegos/Juego10</dir>
+      <file>main.c</file>
+      <line>41</line>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0x37</unique>
+  <tid>1</tid>
+  <kind>UninitCondition</kind>
+  <what>Conditional jump or move depends on uninitialised value(s)</what>
+  <stack>
+    <frame>
+      <ip>0x4C2BFD8</ip>
+      <obj>/usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so</obj>
+      <fn>__GI_strlen</fn>
+    </frame>
+    <frame>
+      <ip>0x4E39D2D</ip>
+      <obj>/usr/lib/debug/libncurses.so.5.9</obj>
+      <fn>waddnstr</fn>
+      <dir>/build/buildd/ncurses-5.9/ncurses/base</dir>
+      <file>lib_addstr.c</file>
+      <line>62</line>
+    </frame>
+    <frame>
+      <ip>0x4E46D19</ip>
+      <obj>/usr/lib/debug/libncurses.so.5.9</obj>
+      <fn>vwprintw</fn>
+      <dir>/build/buildd/ncurses-5.9/ncurses/base</dir>
+      <file>lib_printw.c</file>
+      <line>139</line>
+    </frame>
+    <frame>
+      <ip>0x4E47249</ip>
+      <obj>/usr/lib/debug/libncurses.so.5.9</obj>
+      <fn>printw</fn>
+      <dir>/build/buildd/ncurses-5.9/ncurses/base</dir>
+      <file>lib_printw.c</file>
+      <line>58</line>
+    </frame>
+    <frame>
+      <ip>0x40275C</ip>
+      <obj>/home/sunlock/Dropbox/DAM/DXM3_Programacion/Practicas/Alberto/C/UF2/Juegos/Juego10/bin/Debug/Juego10</obj>
+      <fn>cargaNivel</fn>
+      <dir>/home/sunlock/Dropbox/DAM/DXM3_Programacion/Practicas/Alberto/C/UF2/Juegos/Juego10</dir>
+      <file>nivel.c</file>
+      <line>61</line>
+    </frame>
+    <frame>
+      <ip>0x40206D</ip>
+      <obj>/home/sunlock/Dropbox/DAM/DXM3_Programacion/Practicas/Alberto/C/UF2/Juegos/Juego10/bin/Debug/Juego10</obj>
+      <fn>iniciar_juego</fn>
+      <dir>/home/sunlock/Dropbox/DAM/DXM3_Programacion/Practicas/Alberto/C/UF2/Juegos/Juego10</dir>
+      <file>main.c</file>
+      <line>124</line>
+    </frame>
+    <frame>
+      <ip>0x401EE7</ip>
+      <obj>/home/sunlock/Dropbox/DAM/DXM3_Programacion/Practicas/Alberto/C/UF2/Juegos/Juego10/bin/Debug/Juego10</obj>
+      <fn>main</fn>
+      <dir>/home/sunlock/Dropbox/DAM/DXM3_Programacion/Practicas/Alberto/C/UF2/Juegos/Juego10</dir>
+      <file>main.c</file>
+      <line>41</line>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0xb7</unique>
+  <tid>1</tid>
+  <kind>UninitCondition</kind>
+  <what>Conditional jump or move depends on uninitialised value(s)</what>
+  <stack>
+    <frame>
+      <ip>0x402C2E</ip>
+      <obj>/home/sunlock/Dropbox/DAM/DXM3_Programacion/Practicas/Alberto/C/UF2/Juegos/Juego10/bin/Debug/Juego10</obj>
+      <fn>copiarNivel</fn>
+      <dir>/home/sunlock/Dropbox/DAM/DXM3_Programacion/Practicas/Alberto/C/UF2/Juegos/Juego10</dir>
+      <file>nivel.c</file>
+      <line>148</line>
+    </frame>
+    <frame>
+      <ip>0x402085</ip>
+      <obj>/home/sunlock/Dropbox/DAM/DXM3_Programacion/Practicas/Alberto/C/UF2/Juegos/Juego10/bin/Debug/Juego10</obj>
+      <fn>iniciar_juego</fn>
+      <dir>/home/sunlock/Dropbox/DAM/DXM3_Programacion/Practicas/Alberto/C/UF2/Juegos/Juego10</dir>
+      <file>main.c</file>
+      <line>127</line>
+    </frame>
+    <frame>
+      <ip>0x401EE7</ip>
+      <obj>/home/sunlock/Dropbox/DAM/DXM3_Programacion/Practicas/Alberto/C/UF2/Juegos/Juego10/bin/Debug/Juego10</obj>
+      <fn>main</fn>
+      <dir>/home/sunlock/Dropbox/DAM/DXM3_Programacion/Practicas/Alberto/C/UF2/Juegos/Juego10</dir>
+      <file>main.c</file>
+      <line>41</line>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0x1db</unique>
+  <tid>1</tid>
+  <kind>UninitValue</kind>
+  <what>Use of uninitialised value of size 8</what>
+  <stack>
+    <frame>
+      <ip>0x402C32</ip>
+      <obj>/home/sunlock/Dropbox/DAM/DXM3_Programacion/Practicas/Alberto/C/UF2/Juegos/Juego10/bin/Debug/Juego10</obj>
+      <fn>copiarNivel</fn>
+      <dir>/home/sunlock/Dropbox/DAM/DXM3_Programacion/Practicas/Alberto/C/UF2/Juegos/Juego10</dir>
+      <file>nivel.c</file>
+      <line>148</line>
+    </frame>
+    <frame>
+      <ip>0x402085</ip>
+      <obj>/home/sunlock/Dropbox/DAM/DXM3_Programacion/Practicas/Alberto/C/UF2/Juegos/Juego10/bin/Debug/Juego10</obj>
+      <fn>iniciar_juego</fn>
+      <dir>/home/sunlock/Dropbox/DAM/DXM3_Programacion/Practicas/Alberto/C/UF2/Juegos/Juego10</dir>
+      <file>main.c</file>
+      <line>127</line>
+    </frame>
+    <frame>
+      <ip>0x401EE7</ip>
+      <obj>/home/sunlock/Dropbox/DAM/DXM3_Programacion/Practicas/Alberto/C/UF2/Juegos/Juego10/bin/Debug/Juego10</obj>
+      <fn>main</fn>
+      <dir>/home/sunlock/Dropbox/DAM/DXM3_Programacion/Practicas/Alberto/C/UF2/Juegos/Juego10</dir>
+      <file>main.c</file>
+      <line>41</line>
+    </frame>
+  </stack>
+</error>
+
+
+<status>
+  <state>FINISHED</state>
+  <time>00:00:01:16.008 </time>
+</status>
+
+<errorcounts>
+  <pair>
+    <count>120</count>
+    <unique>0xb7</unique>
+  </pair>
+  <pair>
+    <count>1</count>
+    <unique>0x1db</unique>
+  </pair>
+  <pair>
+    <count>172</count>
+    <unique>0x3</unique>
+  </pair>
+  <pair>
+    <count>172</count>
+    <unique>0x2</unique>
+  </pair>
+  <pair>
+    <count>8</count>
+    <unique>0x37</unique>
+  </pair>
+  <pair>
+    <count>10</count>
+    <unique>0x32</unique>
+  </pair>
+</errorcounts>
+
+<suppcounts>
+  <pair>
+    <count>2</count>
+    <name>dl-hack3-cond-1</name>
+  </pair>
+</suppcounts>
+
+</valgrindoutput>
+
